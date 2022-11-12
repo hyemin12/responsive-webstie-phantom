@@ -1,3 +1,8 @@
-# responsive-webstie-phantom
+<a href="https://hyemin12.github.io/responsive-webstie-readOnly/" target="_blank"><img src="./responsive4.png" /></a>
 
- https://hyemin12.github.io/responsive-webstie-phantom/
+이미지를 클릭하면 사이트로 이동합니다.
+
+---
+
+<br>
+<a href="https://html5up.net/read-only" target="_blank">원 사이트</a>를 보고 반응형 마크업 함
