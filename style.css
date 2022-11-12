@@ -425,6 +425,9 @@ footer h2 {
   }
 }
 @media screen and (max-width: 976px) {
+  .inner {
+    max-width: 100%;
+  }
   .main section.contents .box {
     width: calc(50% - 1.25em);
   }
