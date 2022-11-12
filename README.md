@@ -1,4 +1,4 @@
-<a href="https://hyemin12.github.io/responsive-webstie-phantom/" target="_blank"><img src="./responsive4.png" /></a>
+<a href="https://hyemin12.github.io/responsive-webstie-phantom/" target="_blank"><img src="./responsive5.png" /></a>
 
 이미지를 클릭하면 사이트로 이동합니다.
 
