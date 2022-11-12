@@ -1,4 +1,4 @@
-const btnToggle = document.getElementById("nav-bar");
+const btnToggle = document.getElementById("toggle");
 const nav = document.querySelector(".nav");
 function handleToggle() {
   nav.classList.toggle("view");
