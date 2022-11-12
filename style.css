@@ -16,7 +16,7 @@ h1 {
   margin-bottom: 0.75em;
 }
 h2 {
-  font-size: 1.75em;
+  font-size: 1.5em;
   letter-spacing: 0.2em;
 }
 p {
@@ -414,6 +414,9 @@ footer h2 {
 @media screen and (min-width: 1251px) {
   .main-title {
     font-size: 3.5em;
+  }
+  .box h2 {
+    font-size: 1.75em;
   }
   .sns-group ul li a {
     width: 50px;
