@@ -263,9 +263,7 @@ footer h2 {
   width: 100%;
   font-size: 0.9em;
 }
-.copyright .inner {
-  margin: 0;
-}
+
 .copyright span {
   color: #555;
 }
@@ -433,6 +431,9 @@ footer h2 {
   }
   .main section.contents .box:hover {
     transform: scale(1.05);
+  }
+  .copyright .inner {
+    margin: 0;
   }
 }
 /* Generic Page */
