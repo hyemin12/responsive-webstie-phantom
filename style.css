@@ -16,7 +16,7 @@ h1 {
   margin-bottom: 0.75em;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.75em;
   letter-spacing: 0.2em;
 }
 p {
@@ -65,7 +65,8 @@ button:hover {
 }
 
 .inner {
-  max-width: 1250px;
+  width: 100%;
+  max-width: 70em;
   padding: 2.5em 3em;
   margin: 0 auto;
 }
@@ -73,6 +74,7 @@ button:hover {
   display: none;
 }
 /* LOGO */
+
 .logo {
   display: flex;
   align-items: center;
@@ -281,6 +283,12 @@ footer h2 {
 }
 /* ----- */
 /* MAIN */
+.main .main-title a {
+  border-bottom: 1px dotted #ccc;
+}
+.main .main-title a:hover {
+  border-bottom: none;
+}
 /* CONTENTS */
 .main section.contents {
   display: flex;
@@ -290,11 +298,13 @@ footer h2 {
 }
 .main section.contents .box {
   width: calc(33.33% - 16px);
+
   border-radius: 5px;
   overflow: hidden;
   position: relative;
   transition: 0.5s;
 }
+
 .main section.contents .box .image {
   width: 100%;
 }
@@ -378,7 +388,33 @@ footer h2 {
 .main section.contents .box:nth-child(7n):before {
   background-color: #f6ae99;
 }
+/* box 에 있는 X자  */
+.main section.contents .image::before,
+.main section.contents .image::after {
+  content: "";
+  width: 1px;
+  height: 150%;
+  background-color: #fff;
+  opacity: 0.2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: 0.3s;
+}
+.main section.contents .image::before {
+  transform: translate(-50%, -50%) rotate(-47deg);
+}
+.main section.contents .image::after {
+  transform: translate(-50%, -50%) rotate(47deg);
+}
+.main section.contents .box:hover .image::before,
+.main section.contents .box:hover .image::after {
+  opacity: 0;
+}
 @media screen and (min-width: 1251px) {
+  .main-title {
+    font-size: 3.5em;
+  }
   .sns-group ul li a {
     width: 50px;
     height: 50px;
